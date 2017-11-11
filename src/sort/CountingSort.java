@@ -11,7 +11,10 @@ public class CountingSort {
 
     void inputNumbers() throws IOException {//숫자 입력하기
         Scanner sc = new Scanner(System.in);
+        System.out.println("숫자 갯수를 입력하세요:");
         int size = sc.nextInt();
+
+        System.out.println("숫자를 입력하세요:");
         numbers = new int[size];
         for (int i = 0; i < numbers.length; i++) {
             int num = sc.nextInt();
